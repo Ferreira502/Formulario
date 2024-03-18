@@ -1,0 +1,44 @@
+<!-- PROJETO FEITO POR GABRIEL FERREIRA PEREIRA 
+    15/03/2024
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+            
+            <legend><h1 class="informacoes">Informações Pessoais</h1></legend>
+                <div><input type="text" class="dados_nome" placeholder="Nome"></div>
+                    
+                <div><input type="text" class="dados_nome" placeholder="Email"></div>
+                        
+                
+        
+        <h3>Sexo:</h3>
+    <div class="genero">
+        <input type="radio" class="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+        <input type="radio" class="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label> <br>
+    </div>
+                
+        <label for="data_nascimento"><b class="nome_data">Data de Nascimento:</b> </label>
+        <input type="date" name="data_nascimento" class="data"><br>
+        <div>
+            <label><h2 class="texto_comentarios">Comentarios:</h2></label><br>
+            <textarea class="comentario" rows="6"></textarea><br>
+        </div>
+
+            <input type="submit" name="submit" class="submit">   
+
+            </form>
+
+</body>
+</html>
